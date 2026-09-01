@@ -1,7 +1,7 @@
 import { StringLiteral } from "@babel/types";
 import { MapLike } from "typescript";
-import TSConfig from "../interfaces/TSConfig";
-import AliasesData from "../interfaces/AliasesData";
+import TSConfig from "@main/interfaces/TSConfig";
+import AliasesData from "@main/interfaces/AliasesData";
 export default class ConfigCompiler {
     protected target: string;
     protected workSpace: string;

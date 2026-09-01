@@ -5,6 +5,7 @@ import plugin from "../src/index"
 
 const sourceCodeFile = resolve(__dirname, "code.ts")
 
+
 test("Test", () =>
 {
     const result = transformFileSync(sourceCodeFile, { plugins: [ "@babel/plugin-syntax-typescript", plugin ] })

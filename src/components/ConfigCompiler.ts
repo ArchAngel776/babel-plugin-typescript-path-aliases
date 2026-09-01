@@ -1,5 +1,5 @@
-import { globSync } from "glob"
 import { resolve, relative, isAbsolute, dirname, parse, format } from "path"
+import { globSync } from "glob"
 import { StringLiteral } from "@babel/types"
 import { MapLike } from "typescript"
 import rootPath from "../hooks/rootPath"

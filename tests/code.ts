@@ -1,5 +1,4 @@
-import plugin from "@main/index"
-import {} from "@main/interfaces/AliasesData"
+import plugin from "../src/index"
 
 
 export default function printPluginCode(): void

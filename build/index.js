@@ -7,10 +7,10 @@ exports.default = _default;
 var _path = require("path");
 var _glob = require("glob");
 var _getRootPath = require("get-root-path");
-var _ConfigCompiler = _interopRequireDefault(require("./components/ConfigCompiler"));
-var _tsConfigGlob = _interopRequireDefault(require("./hooks/tsConfigGlob"));
-var _loadJson = _interopRequireDefault(require("./hooks/loadJson"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _ConfigCompiler = _interopRequireDefault(require("@main/components/ConfigCompiler"));
+var _tsConfigGlob = _interopRequireDefault(require("@main/hooks/tsConfigGlob"));
+var _loadJson = _interopRequireDefault(require("@main/hooks/loadJson"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 const root = (0, _getRootPath.getRootPathSync)();
 function _default() {
   return {

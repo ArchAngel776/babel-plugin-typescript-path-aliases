@@ -3,9 +3,13 @@
     "compilerOptions": {
         "emitDeclarationOnly": false,
         "noEmit": true,
-        "rootDir": "../"
+        "rootDir": "../",
+        "types": [
+            "node",
+            "jest"
+        ]
     },
     "include": [
-        "./"
+        "../tests"
     ]
 }

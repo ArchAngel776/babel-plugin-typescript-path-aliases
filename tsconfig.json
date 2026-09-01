@@ -2,20 +2,19 @@
     "compilerOptions": {
         "allowJs": true,
         "strict": true,
-        "module": "ES2020",
-        "moduleResolution": "node",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
         "target": "ES2020",
+        "rootDir": "./src",
         "esModuleInterop": true,
         "isolatedModules": true,
         "resolveJsonModule": true,
-        "baseUrl": ".",
-        "paths": {
-            "@main/*": ["src/*"],
-            "@foo/*": ["tests/*"]
-        },
         "declaration": true,
         "declarationDir": "./@types",
-        "emitDeclarationOnly": true
+        "emitDeclarationOnly": true,
+        "types": [
+            "node"
+        ]
     },
     "include": [
         "src"
